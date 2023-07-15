@@ -1307,6 +1307,7 @@ body{
         width: 100%;
     }
     .order-section-delivery-display{
+        
         display: grid;
         overflow-x: scroll;
         scroll-snap-type: x mandatory;
@@ -1327,5 +1328,10 @@ body{
     .ietm img{
         width: 20px;
         height: 20px;
+    }
+}
+@media (max-width : 480px){
+    .Place{
+        font-size: 1rem;
     }
 }
