@@ -28,19 +28,7 @@ function MainDisplay () {
         return FoodDisplay.innerHTML = (ary.map((x)=>{
           let search =  BookmarkedArray.find((y)=>y.id === x.id )
             return `
-            <div class="imag-div-display">
-            <div class="grid1">
-                <img src="${x.image}" alt="">
-            </div>
-            <div class="grid2">
-                <img src="${x.image1}" alt="">
-                <img src="${x.image2}" alt="">
-            </div>
-            <div class="grid3">
-                <img src="${x.image3}" alt="">
-            </div>
            
-        </div>
     
         <div class="Restaurant-information-section">
             <div class="names-section">
